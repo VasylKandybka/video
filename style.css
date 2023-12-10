@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  main{
+    position: fixed;
+    bottom: 40%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 60%;
+    padding: 20px;
+    left: 20%;
+  }
+  header{
+    position: fixed;
+    top: 30%;
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+  }
+  footer{
+    position:fixed;
+    bottom: 10%;
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+}
